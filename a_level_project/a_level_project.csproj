@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\circle_outline.png" />
+    <None Remove="Images\rectangle_outline.png" />
+    <None Remove="Images\red_diagonal_cross.png" />
+    <None Remove="ProjectDatabase.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\circle_outline.png" />
+    <Resource Include="Images\rectangle_outline.png" />
+    <Resource Include="Images\red_diagonal_cross.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Databases\" />
+  </ItemGroup>
+
+</Project>
