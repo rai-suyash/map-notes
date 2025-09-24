@@ -20,7 +20,7 @@ However, the algorithm this program uses does not account for node sizes, so it 
 This repository is essentially an online store for my project, hence the lack of git commits.
 
 ### ✍️ Authors
-I, Suyash Rai, was the sole developer of this desktop app. After my initial studies into .NET software development, this was my first complete creation of a .NET desktop app. No other frameworks were used, which could have accelerated the development process back then. As a result, I have looked into frameworks such as AvaloniaUI.
+[@rai-suyash](https://github.com/rai-suyash/)
 
 ## 🖥️ Usage
 Open the 'a_level_project' solution in Visual Studio and run it.
